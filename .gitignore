@@ -1,3 +1,4 @@
 *lib/
 *backup/
 *.a
+*.exe
