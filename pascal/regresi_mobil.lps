@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="regresi_mobil.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="10"/>
+        <CursorPos X="12" Y="45"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="numerik\numerik.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="430"/>
+        <CursorPos X="17" Y="447"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="numerik\multiarray.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1083"/>
+        <CursorPos X="5" Y="1087"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="19" HistoryIndex="18">
+      <Position1>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="20" Column="20"/>
+      </Position1>
+      <Position2>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="18" Column="6"/>
+      </Position2>
+      <Position3>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="11"/>
+      </Position3>
+      <Position4>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="57" Column="22" TopLine="47"/>
+      </Position4>
+      <Position5>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="121" Column="3" TopLine="119"/>
+      </Position5>
+      <Position6>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="52" Column="44" TopLine="32"/>
+      </Position6>
+      <Position7>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="441" Column="49" TopLine="421"/>
+      </Position7>
+      <Position8>
+        <Filename Value="numerik\multiarray.pas"/>
+        <Caret Line="382" Column="28" TopLine="364"/>
+      </Position8>
+      <Position9>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="441" Column="49" TopLine="421"/>
+      </Position9>
+      <Position10>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="52" Column="10" TopLine="34"/>
+      </Position10>
+      <Position11>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="442" Column="44" TopLine="435"/>
+      </Position11>
+      <Position12>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="21" Column="24"/>
+      </Position12>
+      <Position13>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="446" Column="21" TopLine="435"/>
+      </Position13>
+      <Position14>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="21" Column="27"/>
+      </Position14>
+      <Position15>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="447" Column="35" TopLine="426"/>
+      </Position15>
+      <Position16>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="448" Column="6" TopLine="430"/>
+      </Position16>
+      <Position17>
+        <Filename Value="numerik\multiarray.pas"/>
+        <Caret Line="143" Column="13" TopLine="124"/>
+      </Position17>
+      <Position18>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="10" Column="10"/>
+      </Position18>
+      <Position19>
+        <Filename Value="regresi_mobil.lpr"/>
+        <Caret Line="39" Column="16" TopLine="8"/>
+      </Position19>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

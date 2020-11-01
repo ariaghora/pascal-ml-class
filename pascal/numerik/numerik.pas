@@ -49,6 +49,7 @@ function Round(A: TMultiArray): TMultiArray; overload;
 { Compute the sum of a A along axis. The default axis is -1, meaning the sum is
   computed over all items in A. }
 function Sum(A: TMultiArray; axis: integer = -1; KeepDims: boolean=False): TMultiArray; overload;
+function Std(A: TMultiArray; axis: integer = -1; KeepDims: boolean=False): TMultiArray; overload;
 
 { ----------- Trigonometry --------------------------------------------------- }
 
@@ -429,6 +430,22 @@ begin
 
   { Sum along axis for arbitrary dimension }
   Exit(ReduceAlongAxis(A, @Add, axis, KeepDims));
+end;
+
+function Std(A: TMultiArray; axis: integer; KeepDims: boolean): TMultiArray;
+var
+   mu, s: TMultiArray;
+   n: single;
+begin
+   mu := Mean(A, axis, True);
+   if axis = -1 then
+     n := A.Size
+   else
+     n := A.Shape[axis];
+   s := Sqrt(sum(Power(A - mu, 2), axis, KeepDims) / n);
+   Result := s;
+   if not KeepDims then
+     SqueezeMultiArray(Result);
 end;
 
 function Cov(X, Y: TMultiArray; DDof: longint = 1): TMultiArray;
