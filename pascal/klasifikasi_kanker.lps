@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="klasifikasi_kanker.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="12"/>
+        <CursorPos X="13" Y="40"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="numerik\numerik.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="10" Y="52"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="numerik\multiarray.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1083"/>
+        <CursorPos X="5" Y="1087"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="14" HistoryIndex="13">
+      <Position1>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="57" Column="22" TopLine="47"/>
+      </Position1>
+      <Position2>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="121" Column="3" TopLine="119"/>
+      </Position2>
+      <Position3>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="52" Column="44" TopLine="32"/>
+      </Position3>
+      <Position4>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="441" Column="49" TopLine="421"/>
+      </Position4>
+      <Position5>
+        <Filename Value="numerik\multiarray.pas"/>
+        <Caret Line="382" Column="28" TopLine="364"/>
+      </Position5>
+      <Position6>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="441" Column="49" TopLine="421"/>
+      </Position6>
+      <Position7>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="52" Column="10" TopLine="34"/>
+      </Position7>
+      <Position8>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="442" Column="44" TopLine="435"/>
+      </Position8>
+      <Position9>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="446" Column="21" TopLine="435"/>
+      </Position9>
+      <Position10>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="447" Column="35" TopLine="426"/>
+      </Position10>
+      <Position11>
+        <Filename Value="numerik\numerik.pas"/>
+        <Caret Line="448" Column="6" TopLine="430"/>
+      </Position11>
+      <Position12>
+        <Filename Value="numerik\multiarray.pas"/>
+        <Caret Line="143" Column="13" TopLine="124"/>
+      </Position12>
+      <Position13>
+        <Filename Value="klasifikasi_kanker.lpr"/>
+        <Caret Line="29" Column="25" TopLine="6"/>
+      </Position13>
+      <Position14>
+        <Filename Value="klasifikasi_kanker.lpr"/>
+        <Caret Line="43" Column="17" TopLine="16"/>
+      </Position14>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
