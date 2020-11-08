@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="kmeans.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="66" Y="31"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="pasml\gnuplot.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="62"/>
+        <CursorPos X="42" Y="85"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="kmeans.lpr"/>
+        <Caret Line="17" Column="26"/>
+      </Position1>
+      <Position2>
+        <Filename Value="kmeans.lpr"/>
+        <Caret Line="10" Column="3"/>
+      </Position2>
+      <Position3>
+        <Filename Value="kmeans.lpr"/>
+        <Caret Line="20" Column="16"/>
+      </Position3>
+      <Position4>
+        <Filename Value="pasml\gnuplot.pas"/>
+        <Caret Line="27" Column="25"/>
+      </Position4>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
