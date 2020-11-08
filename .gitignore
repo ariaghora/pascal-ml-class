@@ -3,3 +3,4 @@
 *.a
 *.exe
 *_checkpoints/
+*.dll

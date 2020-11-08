@@ -6,7 +6,7 @@ uses
   gnuplot;
 
 var
-  DataMobil, x, y: TMultiArray;
+  DataMobil, x, y, Err: TMultiArray;
   w, b, dw, db, yPred: TMultiArray;
   JmlSampel, JmlFeature, i: integer;
   lr: single;
@@ -16,7 +16,7 @@ var
 begin
   DataMobil := ReadCSV('../dataset/car_price.csv');
 
-  x := DataMobil[[_ALL_, Range(0, 13)]];
+  x := DataMobil[[ _ALL_ , Range(0, 13)]];
   x := (x - Mean(x, 0)) / Std(x, 0);
 
   JmlSampel := x.Shape[0];
@@ -37,12 +37,16 @@ begin
 
     w := w - lr * dw;
     b := b - lr * db;
-  end;
 
-  fig := TFigure.Create('Prediksi harga mobil', 'id mobil', 'Harga');
-  fig.AddLinePlot(y, 'sebenarnya');
-  fig.AddLinePlot(yPred, 'prediksi');
-  fig.Show;
+    Err := Mean((yPred - y) ** 2); // hitung error
+    PrintMultiArray(Err); // cetak error
+  end;
+  WriteCSV(yPred, 'prediction.csv'); // simpan hasil prediksi
+
+  //fig := TFigure.Create('Prediksi harga mobil', 'id mobil', 'Harga');
+  //fig.AddLinePlot(y, 'sebenarnya');
+  //fig.AddLinePlot(yPred, 'prediksi');
+  //fig.Show;
 
   ReadLn;
 end.
