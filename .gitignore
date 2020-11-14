@@ -4,3 +4,5 @@
 *.exe
 *_checkpoints/
 *.dll
+*.o
+*.ppu
